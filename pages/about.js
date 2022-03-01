@@ -7,27 +7,27 @@ import AboutCard from "../components/about-card"
 const About = () => {
 
     let tristan = { name: "Tristan", pronouns: "(he/him)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tristan_mlgotz.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091920/about/Tristan_2_gvybas.png",
                     li: "https://www.linkedin.com/in/tristan-surman/",
                     desc: <>Tristan is in charge of helping the team get access to the strategies, tools and opportunities that drive the organization forward.<br/><br/> He loves making music, writing, and learning.</> };
     let ella    = { name: "Ella", pronouns: "(she/her)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Ella_ghxasv.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091923/about/Ella_2_rt93uu.png",
                     li: "https://www.linkedin.com/in/ella-roy-433948156/",
                     desc: <>Ella is in charge of guiding the creative vision of our work from concept to execution.<br/><br/> She loves film photography, her collection of design magazines and being around people!</> };
     let tony    = { name: "Tony", pronouns: "(he/him)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tony_xni3ne.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091923/about/Tony_2_bxu33u.png",
                     li: "https://www.linkedin.com/in/tonywang99/",
                     desc: <>Tony leads our creative team and guides the stories that help our clients make the world a better place.<br/><br/>He loves horror films, long walks, and cool looking album covers.</> };
     let yunjie  = { name: "Yunjie", pronouns: "(she/her)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Yunjie_yze0wd.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646092416/about/Yunjie_2_fkedl4.png",
                     li: "https://www.linkedin.com/in/yunjiezhang/",
                     desc: <>Yunjie works with clients to create meaningful and delightful digital experiences.<br/><br/>She loves walking, thinking, learning, and pistachio ice cream.</> };
     let kai     = { name: "Kai", pronouns: "(she/her)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Kai_hwgped.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091920/about/Kai_2_rxdkd7.png",
                     li: "https://www.linkedin.com/in/kai-trotz-motayne-260123162/",
                     desc: <>Kai focuses on the implementation of digital media campaign strategy by understanding client goals and determining actions through strategic thinking and planning.<br/><br/>Kai loves travelling, reading, and creating unfinished playlists.</>,  };
     let liam    = { name: "Liam", pronouns: "(he/him)",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678500/about/liam_p6ex5d.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091922/about/Liam_2_iijz0q.png",
                     li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
                     desc: <>Liam is responsible for bringing websites to life, using his technical knowhow, eye for detail, and a boatload of patience.<br/><br/>He loves math, music, and tinkering with computers.</>,  };
     let max     = { name: "Max", pronouns: "(he/him)",

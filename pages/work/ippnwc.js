@@ -22,7 +22,7 @@ const IPPNWC = ({ }) => {
         },
         color1: "#243553",
         color2: "#243553",
-        name: <>International Physicians for the<br/>Prevention of Nuclear War Canada</>,
+        name: <>International Physicians for the <br/>Prevention of Nuclear War Canada</>,
         title: <>Bringing young physicians into <br/>the peace movement.</>,
         foci: [
             "Anti-Militarism",

@@ -11,8 +11,8 @@ const Home = ({ homepage }) => {
 
   let infaque = {
     name: "Infaque",
-    title: <>Stories about the <em>better<br/>futures</em> you imagine...</>,
-    desc: <>Imagining a better way to<br/> donate with</>,
+    title: <>Stories about the <em>better <br/>futures</em> you imagine...</>,
+    desc: <>Imagining a better way to <br/> donate with</>,
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_Infaque_V6_lihiut.mp4"
   };
   let mada    = {
@@ -34,16 +34,6 @@ const Home = ({ homepage }) => {
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_AisB_V5_xc1at2.mp4"
   };
 
-  let logos = [
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645714339/home/logos/McConnell_fe8qdg.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638200/home/logos/AisB_wrslkb.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638200/home/logos/InvestEco_srdbhl.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638201/home/logos/Renewal_Funds_hyffjd.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645714339/home/logos/CSI_t3uczg.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638201/home/logos/POP_zdkpbh.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638200/home/logos/Wellcome_uqc9v1.png",
-    "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645638200/home/logos/Jewish_General_nxmyg7.png",
-  ]
 
   var toggle=0;
   const storiesLines = useRef();
@@ -74,7 +64,7 @@ const Home = ({ homepage }) => {
       <div id="home-content">
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <div className="home-head" style={{backgroundImage:"url(https://res.cloudinary.com/mymediacreative/image/upload/v1645746958/home/Homepage_Load_Buffer_vycg56.png)"}}>
-          <Nav seo={{title:"Home", desc:""}} isBlack={false} active="" />
+          <Nav seo={{title:"Home", desc:""}} isBlack={false} active="home" />
             <div className="reg-w">
               <h1>A creative agency <br/> for <em className="dorange">social change.</em></h1>
               <Spacer h="30px" />
@@ -88,7 +78,7 @@ const Home = ({ homepage }) => {
 
         <div className="home-stories grey-lines">
             <div className="home-stories-text">
-              <h1 className="xl">As <em className="dorange">changemakers,</em><br />
+              <h1 className="xl">As <em className="dorange">changemakers, </em><br />
                 there's power in <br />
                 <em className="dorange">your stories.</em></h1>
             </div>
@@ -109,7 +99,7 @@ const Home = ({ homepage }) => {
           <div className="home-logos-text">
             <h4>We’ve been bringing stories like these to life with <em className="dorange">nonprofits</em>,<br /> <em className="dorange">foundations</em>, and <em className="dorange">mission-driven businesses</em> for a while now…</h4>
             <div className="logo-grid">
-               <>{ logos.map((logo, index) => { return <img key={index} src={logo}/>; })}</>
+              <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1645747341/home/logos/Logos_mz8qyn.png" />
             </div>
             <h4>...and we've <em className="dorange">learned</em> something.</h4>
           </div>

@@ -31,8 +31,10 @@ const Services = () => {
                 <div className="name">
                     <h4>Head</h4>
                 </div>
-                <div className="list">
+                <div className="title">
                     <h3>Strategy</h3>
+                </div>
+                <div className="list">
                     <h6><ul>
                         <li>campaign</li>
                         <li>communications</li>
@@ -45,6 +47,8 @@ const Services = () => {
                 <div className="desc">
                     <h4>To us, great strategy comes from the marriage of empathy, research, and analysis.</h4>
                     <h6>We’re a group of curious people who want to understand you, your reality, and your community before we jump into making things.</h6>
+                </div>
+                <div className="links">
                     <a href="/work/mada" className="arrow-link" >MADA</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="/work/psystem" className="arrow-link" >Psystem</a>
                 </div>
@@ -58,8 +62,10 @@ const Services = () => {
                 <div className="name">
                     <h4>Heart</h4>
                 </div>
-                <div className="list">
+                <div className="title">
                     <h3>Storytelling</h3>
+                </div>
+                <div className="list">
                     <h6><ul>
                         <li>brands</li>
                         <li>campaigns</li>
@@ -72,6 +78,8 @@ const Services = () => {
                 <div className="desc">
                     <h4>Within a great strategic framework, a compelling story is what moves people to donate, volunteer, buy, or share. </h4>
                     <h6>We’re a group of storytellers at heart—who want to get at what makes you, and your purpose, special. Then tell your story in a way that activates.</h6>
+                </div>
+                <div className="links">
                     <a href="/work/infaque" className="arrow-link" >Infaque</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="/work/chasm" className="arrow-link" >CHASM</a>
                 </div>
@@ -85,8 +93,10 @@ const Services = () => {
                 <div className="name">
                     <h4>Hands</h4>
                 </div>
-                <div className="list">
+                <div className="title">
                     <h3>Execution</h3>
+                </div>
+                <div className="list">
                     <h6><ul>
                         <li>video</li>
                         <li>motion design</li>
@@ -100,6 +110,8 @@ const Services = () => {
                 <div className="desc">
                     <h4>Whether you’re building an annual report, deploying your brand on social media, or making an animated explainer video—excellent execution is absolutely essential.</h4>
                     <h6>We’re a group of technically-minded creators who pay rigorous attention to detail when building things to be effective in a digital world. </h6>
+                </div>
+                <div className="links">
                     <a href="/work/ECTHP" className="arrow-link" >EthicalCoach</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="/work/cera" className="arrow-link" >CERA</a>
                 </div>

@@ -38,6 +38,7 @@ const HomeWide = ({ proj }) => {
             </svg>
             <h3 className="h3s">{proj.title}</h3>
             <p>{proj.desc} <a className="arrow-link">{proj.name}</a></p>
+            <a className="arrow-link mobile">{proj.name}</a>
         </div>
     </div>
   )

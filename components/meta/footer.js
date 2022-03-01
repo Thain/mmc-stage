@@ -84,22 +84,22 @@ export const Footer = ({ }) => {
                <a className="dorange">Social</a>
             </li>
             <li>
-              <Link href={`/`}>
+              <Link href={`https://www.instagram.com/mymediacreative/`}>
                 <a className="">Instagram</a>
               </Link>
             </li>
             <li>
-              <Link href={`/`}>
+              <Link href={`https://www.linkedin.com/company/my-media-creative/mycompany/`}>
                 <a className="">LinkedIn</a>
               </Link>
             </li>
             <li>
-              <Link href={`/`}>
+              <Link href={`https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw`}>
                 <a className="">YouTube</a>
               </Link>
             </li>
             <li>
-              <Link href={`/`}>
+              <Link href={`https://www.facebook.com/mymediacreativegroup/`}>
                 <a className="">Facebook</a>
               </Link>
             </li>
