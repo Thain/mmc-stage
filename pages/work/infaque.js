@@ -56,6 +56,8 @@ const Infaque = ({ }) => {
         outcome: <>Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale.</>,
         header: "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
         main: "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png",
@@ -76,7 +78,7 @@ const Infaque = ({ }) => {
   return (
       <>
         <div className="case-study-content">
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav isBlack={true} seo={proj.seo} active="work"/>
                 <HeaderVid src={proj.header} />
             </div>

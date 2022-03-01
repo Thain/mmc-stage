@@ -50,6 +50,8 @@ const MADA = ({ }) => {
         outcome: <>The campaign was a success on several fronts. Of course the most important metric, funds raised, speaks for itself. Within 7 days the campaign raised $2 million. Digital ad spending on our creative assets proved useful—showing a 6x ROI on ad dollars spent (with “Could You Choose” being the highest performer of our assets”. Finally, the message was successful in mobilizing the existing community: 129 fundraising teams raised an average of $10,000 each—for a total of $1.4 million.</>,
         header: "https://res.cloudinary.com/mymediacreative/video/upload/v1645642687/case-studies/mada/MADA_Header_Loop_rsbu9k.mp4",
         main: "https://vimeo.com/681645746",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157461/case-studies/mada/MOBILE_MADA_Header_zuu9lx.png",
+        mobilePosition: "59%",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638916/case-studies/mada/MADA_1_bwspal.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638915/case-studies/mada/MADA_2_v4xeaw.png",
@@ -70,7 +72,7 @@ const MADA = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head" style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderVid src={proj.header} />
             </div>

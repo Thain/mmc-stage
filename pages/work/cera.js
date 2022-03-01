@@ -49,6 +49,8 @@ const CERA = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638951/case-studies/cera/CERA_Header_sjchar.png",
         main: "https://vimeo.com/681902299",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158773/case-studies/cera/CERA_Mobile_q33mqh.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638951/case-studies/cera/CERA_1_odilgo.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638951/case-studies/cera/CERA_2_npzhg3.png",
@@ -66,7 +68,7 @@ const CERA = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head" style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

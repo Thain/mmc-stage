@@ -46,6 +46,8 @@ const IndigIrecruit = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638619/case-studies/indigirecruit/Indigirecruit_Header_c8az5g.png",
         main: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638618/case-studies/indigirecruit/Indigirecruit_1_ejdjwz.png",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158795/case-studies/indigirecruit/Indigirecruit_Mobile_x7xwc5.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638618/case-studies/indigirecruit/Indigirecruit_2_gvcpok.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638619/case-studies/indigirecruit/Indigirecruit_3_w18mgf.png",
@@ -66,7 +68,7 @@ const IndigIrecruit = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

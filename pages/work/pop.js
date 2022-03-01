@@ -46,6 +46,8 @@ const POP = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645639122/case-studies/pop%20montreal/POP_Header_awrq2e.png",
         main: <><iframe width="560" height="315" src="https://www.youtube.com/embed/EMILJCe8-uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></>,
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158852/case-studies/pop%20montreal/POP_Mobile_tm99xf.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639122/case-studies/pop%20montreal/POP_1_gt8fk2.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639122/case-studies/pop%20montreal/POP_2_c9bh79.png",
@@ -63,7 +65,7 @@ const POP = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

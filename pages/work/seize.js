@@ -46,6 +46,8 @@ const SEIZE = ({ }) => {
         outcome: <>We broke the video up into three shorter pieces that could be used as follow up collateral during the campaign. They each served a different purpose and focused on a different piece of messaging.</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645639188/case-studies/seize/SEIZE_Header_xixuyy.png",
         main: "https://vimeo.com/681646253",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158868/case-studies/seize/SEIZE_Mobile_ygx1fg.png",
+        mobilePosition: "63%",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639188/case-studies/seize/SEIZE_1_sxgxmz.png",
             "https://vimeo.com/681646443",
@@ -61,7 +63,7 @@ const SEIZE = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

@@ -46,6 +46,8 @@ const McConnell = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645639158/case-studies/mcconnell/McConnell_Header_bhbja4.png",
         main: "https://vimeo.com/681649705",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158841/case-studies/mcconnell/McConnell_Mobile_bzonyv.png",
+        mobilePosition: "79%",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639158/case-studies/mcconnell/McConnell_2_c6iqw5.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645639158/case-studies/mcconnell/McConnell_3_keclvr.png",
@@ -63,7 +65,7 @@ const McConnell = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

@@ -13,25 +13,33 @@ const Home = ({ homepage }) => {
     name: "Infaque",
     title: <>Stories about the <em>better <br/>futures</em> you imagine...</>,
     desc: <>Imagining a better way to <br/> donate with</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_Infaque_V6_lihiut.mp4"
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_Infaque_V6_lihiut.mp4",
+    mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157565/home/Mobile_HOME_1_jwqj1q.png",
+    mobilePosition: "88%",
   };
   let mada    = {
     name: "MADA",
     title: <>...and the <em>injustice</em> you<br/> want to end.</>,
     desc: <>Raising $2 million to fight<br/> hunger with</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_MADA_V5_zdjtu2.mp4"
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_MADA_V5_zdjtu2.mp4",
+    mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157566/home/Mobile_HOME_2_vg00ix.png",
+    mobilePosition: "47%",
   };
   let sh = {
     name: "Smart Hospital Project",
     title: <>Stories that ignite<br/> our <em>passion</em>...</>,
     desc: <>Making innovation feel safe for parents<br/> with the</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_SH_V6_cwyant.mp4"
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_SH_V6_cwyant.mp4",
+    mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158894/home/SH_HomePage_Mobile_oqpfpd.png",
+    mobilePosition: "center center",
   };
   let aisb = {
     name: "Apathy is Boring",
     title: <>...and awaken the<br/> <em>activist</em> in all of us.</>,
     desc: <>Mobilizing young voters<br/> with</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_AisB_V5_xc1at2.mp4"
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_AisB_V5_xc1at2.mp4",
+    mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157566/home/Mobile_HOME_4_rgrawe.png",
+    mobilePosition: "55%",
   };
 
 
@@ -63,7 +71,7 @@ const Home = ({ homepage }) => {
     <>
       <div id="home-content">
         {/*<Seo seo={homepage.attributes.seo} />*/}
-        <div className="home-head" style={{backgroundImage:"url(https://res.cloudinary.com/mymediacreative/image/upload/v1645746958/home/Homepage_Load_Buffer_vycg56.png)"}}>
+        <div className="home-head">
           <Nav seo={{title:"Home", desc:""}} isBlack={false} active="home" />
             <div className="reg-w">
               <h1>A creative agency <br/> for <em className="dorange">social change.</em></h1>
@@ -71,7 +79,7 @@ const Home = ({ homepage }) => {
               <h5>Mobilizing people to create a just and livable future.</h5>
             </div>
             <Spacer h="140px" />
-            <video width="100%" autoPlay={true} muted loop playsInline >
+            <video className="reg" width="100%" autoPlay={true} muted loop playsInline >
               <source src="https://res.cloudinary.com/mymediacreative/video/upload/v1645638831/home/HOME_Header_V5_lnve90.mp4" type="video/mp4" />
             </video>
           </div>

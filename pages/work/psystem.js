@@ -51,6 +51,8 @@ const Psystem = ({ }) => {
         outcome: <>Psystem has a consistent world that has come through every relevant touch point. The Experience Principles and broader brand strategy has been extremely well implemented within the organization. The current marketing team had done a great job of independently sticking to, and thoughtfully expanding on, the brand that we handed them. <br/><br/>Since our initial work with Psystem, they’ve grown from a single entrepreneur to a 7 person team within a year.</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1920/v1645638493/case-studies/psystem/Psystem_Header_vphhdo.png",
         main: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1920/v1645638493/case-studies/psystem/Psystem_1_zlte3a.png",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158858/case-studies/psystem/Psystem_Mobile_qgwreq.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_2200/v1645638493/case-studies/psystem/Psystem_2_j7icvn.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_2200/v1645638494/case-studies/psystem/Psystem_3_xvq6du.png",
@@ -69,7 +71,7 @@ const Psystem = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

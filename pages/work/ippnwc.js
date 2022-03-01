@@ -46,6 +46,8 @@ const IPPNWC = ({ }) => {
         outcome: <>When surveyed, 92% of medical students said that they would be highly likely to share the campaigns flagship video with their peers—and seek out further information on the subject. Qualitatively, medical students pointed to the novelty of the campaign and the important role that it played putting the issue on their radar. In the end, the campaign was successful in driving new interest among medical students to IPPNWC’s Fellowships and programs.</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645639229/case-studies/ippnwc/IPPNWC_Header_tafon1.png",
         main: "https://vimeo.com/681653736",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158826/case-studies/ippnwc/IPPNWC_Mobile_svyvw4.png",
+        mobilePosition: "77%",
         gallery: [
             "https://vimeo.com/681652482",
         ],
@@ -59,7 +61,7 @@ const IPPNWC = ({ }) => {
   return (
       <>
         <div className="case-study-content">
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

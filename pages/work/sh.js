@@ -44,6 +44,8 @@ const SH = ({ }) => {
         outcome: <>We sent the brand to the Smart Hospital and they loved it. It captured the balance of modern and warm that they were looking for. Like many visual branding projects—the outcome is better seen than read.</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638875/case-studies/smart%20hospital/SH_Header_fbt4fl.png",
         main: "https://res.cloudinary.com/mymediacreative/video/upload/v1645638873/case-studies/smart%20hospital/Smart_Hospital_Logo_Animation_d6y371.mp4",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158876/case-studies/smart%20hospital/SH_Mobile_ek3dxg.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638872/case-studies/smart%20hospital/SH_Colors_rnwvkc.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638872/case-studies/smart%20hospital/SH_Logo1_vwt1na.png",
@@ -65,7 +67,7 @@ const SH = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header}/>
             </div>

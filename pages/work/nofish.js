@@ -47,6 +47,8 @@ const NoFish = ({ }) => {
         outcome: <>The launch of NoFish was a success on social media! NoFish’ Instagram grew 120% in just a couple weeks—from 474 followers to 1046. The brand was included in several media outlets after its launch—and the feedback from people who ordered it was great!</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638530/case-studies/no%20fish/NF_Header_efvlam.png",
         main: "https://res.cloudinary.com/mymediacreative/video/upload/v1645641517/case-studies/no%20fish/NoFish_Flagship_nh8uaz.mp4",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158845/case-studies/no%20fish/NoFish_Mobile_tnzrpd.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638531/case-studies/no%20fish/NF_Packaging_sgmr0q.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638531/case-studies/no%20fish/NF_Post1_kvlagi.png",
@@ -67,7 +69,7 @@ const NoFish = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

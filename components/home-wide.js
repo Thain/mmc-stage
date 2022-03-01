@@ -28,6 +28,7 @@ const HomeWide = ({ proj }) => {
       <div className="home-wide"
            onMouseOver={play}
            onMouseOut={pause}
+           style={{ backgroundImage: `url(${proj.mobile})`, backgroundSize: "cover", backgroundPosition: `${proj.mobilePosition}` }}
       >
         <video className="wide-vid" width="100%" muted loop playsInline >
             <source src={proj.vid} type="video/mp4" />

@@ -46,6 +46,8 @@ const CHASM = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638655/case-studies/chasm/CHASM_Header_hhnebm.png",
         main: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638655/case-studies/chasm/CHASM1_upcexo.png",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158781/case-studies/chasm/CHASM_Mobile_y5nzuy.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638655/case-studies/chasm/CHASM2_c3p5eq.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638655/case-studies/chasm/CHASM3_mxjqwb.png",
@@ -60,7 +62,7 @@ const CHASM = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

@@ -47,6 +47,8 @@ const YIC = ({ }) => {
         outcome: <>The outcome was positive. We accumulated 9000+ site visits across 350 Canadian cities and 650+ social media followers in the month we were active. We more than doubled our 300 person goal—accumulating applications from 600+ people across Canada.</>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638564/case-studies/invest%20eco/YIC_1_psuzqu.png",
         main: "https://vimeo.com/681650354",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158818/case-studies/invest%20eco/YIC_Mobile_xzqjf0.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638564/case-studies/invest%20eco/YIC_Header_gf80ze.png",
         ],
@@ -61,7 +63,7 @@ const YIC = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>

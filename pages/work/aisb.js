@@ -47,6 +47,8 @@ const AisB = ({ }) => {
         outcome: <>We launched the pages! In the case of VOTE, we did it just in time for the writ to drop. As Apathy is Boring ramped up their activities ahead of the 2021 Federal Election—our pages became a hub for a ton of traffic that their initiatives were sending to the website. In the case of the outcome for these pages, though, pictures speak louder than words.</>,
         header: "https://res.cloudinary.com/mymediacreative/video/upload/v1645638250/case-studies/AisB/AisB_Header_kb2j5u.mp4",
         main: "https://res.cloudinary.com/mymediacreative/video/upload/v1645638442/case-studies/AisB/Rise_Flagship_ro6zzf.mp4",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157232/case-studies/AisB/MOBILE_AisB_Header_ael2d1.png",
+        mobilePosition: "36%",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638249/case-studies/AisB/AisB_1_ndmqfr.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638250/case-studies/AisB/AisB_2_a7xm2z.png",
@@ -63,7 +65,7 @@ const AisB = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={false} active="work"/>
                 <HeaderVid src={proj.header} />
             </div>

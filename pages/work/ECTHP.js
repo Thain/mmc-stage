@@ -47,6 +47,8 @@ const ECTHP = ({ }) => {
         outcome: <></>,
         header: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638597/case-studies/ethical%20coach%20x%20hunger%20project/EthicalCoach_Header_ciqeml.png",
         main: "https://res.cloudinary.com/mymediacreative/image/upload/v1645638597/case-studies/ethical%20coach%20x%20hunger%20project/EthicalCoach1_jeidei.png",
+        mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158787/case-studies/ethical%20coach%20x%20hunger%20project/EthicalCoach_Mobile_uluokm.png",
+        mobilePosition: "center",
         gallery: [
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638597/case-studies/ethical%20coach%20x%20hunger%20project/EthicalCoach2_yoxzmy.png",
             "https://res.cloudinary.com/mymediacreative/image/upload/v1645638597/case-studies/ethical%20coach%20x%20hunger%20project/EthicalCoach3_wsipuw.png",
@@ -60,7 +62,7 @@ const ECTHP = ({ }) => {
       <>
         <div className="case-study-content">
             {/*<Seo seo={homepage.attributes.seo} />*/}
-            <div className="case-study-head">
+            <div className="case-study-head"style={{ backgroundImage: `url(${proj.mobile})`, backgroundPosition: `${proj.mobilePosition}`}}>
                 <Nav seo={proj.seo} isBlack={true} active="work"/>
                 <HeaderImg src={proj.header} />
             </div>
