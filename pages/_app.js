@@ -7,11 +7,23 @@ import "../assets/css/color.css"
 import "../assets/css/screen-sizes.css"
 import 'jquery/dist/jquery.min.js'
 
+
 const MyApp = ({ Component, router, pageProps }) => {
 
   return (
     <>
       <Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7VW2D5BYR"></script>
+          <script
+            async
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-G7VW2D5BYR');`
+            }}
+          />
       </Head>
         <PageTransition timeout={450} classNames="page-transition">
           <Component {...pageProps} key={router.route} />

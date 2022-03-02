@@ -27,6 +27,8 @@ export const Seo = ({ seo }) => {
 
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
+
+
     </Head>
   )
 }

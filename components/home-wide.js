@@ -38,8 +38,8 @@ const HomeWide = ({ proj }) => {
                 <circle cx="12.5" cy="12.5" r="12.5" fill="#E26E4B"/>
             </svg>
             <h3 className="h3s">{proj.title}</h3>
-            <p>{proj.desc} <a className="arrow-link">{proj.name}</a></p>
-            <a className="arrow-link mobile">{proj.name}</a>
+            <p>{proj.desc} <a href={"/work/" + proj.link} className="arrow-link">{proj.name}</a></p>
+            <a href={"/work/" + proj.link} className="arrow-link mobile">{proj.name}</a>
         </div>
     </div>
   )

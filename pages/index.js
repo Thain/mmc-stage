@@ -14,6 +14,7 @@ const Home = ({ homepage }) => {
     title: <>Stories about the <em>better <br/>futures</em> you imagine...</>,
     desc: <>Imagining a better way to <br/> donate with</>,
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_Infaque_V6_lihiut.mp4",
+    link: "infaque",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157565/home/Mobile_HOME_1_jwqj1q.png",
     mobilePosition: "88%",
   };
@@ -22,6 +23,7 @@ const Home = ({ homepage }) => {
     title: <>...and the <em>injustice</em> you<br/> want to end.</>,
     desc: <>Raising $2 million to fight<br/> hunger with</>,
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_MADA_V5_zdjtu2.mp4",
+    link: "mada",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157566/home/Mobile_HOME_2_vg00ix.png",
     mobilePosition: "47%",
   };
@@ -30,6 +32,7 @@ const Home = ({ homepage }) => {
     title: <>Stories that ignite<br/> our <em>passion</em>...</>,
     desc: <>Making innovation feel safe for parents<br/> with the</>,
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_SH_V6_cwyant.mp4",
+    link: "sh",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158894/home/SH_HomePage_Mobile_oqpfpd.png",
     mobilePosition: "center center",
   };
@@ -38,6 +41,7 @@ const Home = ({ homepage }) => {
     title: <>...and awaken the<br/> <em>activist</em> in all of us.</>,
     desc: <>Mobilizing young voters<br/> with</>,
     vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_AisB_V5_xc1at2.mp4",
+    link: "aisb",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157566/home/Mobile_HOME_4_rgrawe.png",
     mobilePosition: "55%",
   };
