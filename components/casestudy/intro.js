@@ -10,7 +10,7 @@ export const Intro = ( info ) => {
             </svg>
         </div>
         <h4 className="h4p">Introduction</h4>
-        <h6>{info.text}</h6>
+        <h6 dangerouslySetInnerHTML={{__html: info.text}}></h6>
     </div>
   )
 }

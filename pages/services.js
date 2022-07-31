@@ -50,7 +50,7 @@ const Services = () => {
                 </div>
                 <div className="links">
                     <a href="/work/mada" className="arrow-link" >MADA</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="/work/psystem" className="arrow-link" >Psystem</a>
+                    <a href="/work/SIA" className="arrow-link" >SIA</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ const Services = () => {
                     <h6>We’re a group of storytellers at heart—who want to get at what makes you, and your purpose, special. Then tell your story in a way that activates.</h6>
                 </div>
                 <div className="links">
-                    <a href="/work/infaque" className="arrow-link" >Infaque</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/work/greenpeace" className="arrow-link" >GreenPeace</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="/work/chasm" className="arrow-link" >CHASM</a>
                 </div>
             </div>

@@ -11,7 +11,7 @@ export const Outcome = ( info ) => {
             </svg>
         </div>
         <h4 className="h4p">Outcome</h4>
-        <h6>{info.text}</h6>
+        <h6 dangerouslySetInnerHTML={{__html: info.text}}></h6>
     </div>
   )
 }

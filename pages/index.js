@@ -31,7 +31,7 @@ const Home = ({ homepage }) => {
     name: "Smart Hospital Project",
     title: <>Stories that ignite<br/> our <em>passion</em>...</>,
     desc: <>Making innovation feel safe for parents<br/> with the</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_SH_V6_cwyant.mp4",
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1659219192/home/Home_-_Case_3_kvl1ok.mp4",
     link: "sh",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646158894/home/SH_HomePage_Mobile_oqpfpd.png",
     mobilePosition: "center center",
@@ -84,7 +84,7 @@ const Home = ({ homepage }) => {
             </div>
             <Spacer h="140px" />
             <video className="reg" width="100%" autoPlay={true} muted loop playsInline >
-              <source src="https://res.cloudinary.com/mymediacreative/video/upload/v1645638831/home/HOME_Header_V5_lnve90.mp4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/mymediacreative/video/upload/v1659119707/home/New_Header_April_28th_vhsfdk.mp4" type="video/mp4" />
             </video>
           </div>
 
@@ -186,26 +186,4 @@ const Home = ({ homepage }) => {
   )
 }
 
-//export async function getStaticProps() {
-  // Run API calls in parallel
-  // const [articlesRes, homepageRes] = await Promise.all([
-  //   fetchAPI("/articles", { populate: "*" }),
-//  const [homepageRes] = await Promise.all([
-//    fetchAPI("/homepage", {
-//      populate: {
-//        hero: "*",
-//        seo: { populate: "*" },
-//      },
-//    }),
-//  ])
-//
-//  return {
-//    props: {
-//      homepage: homepageRes.data,
-//    },
-//    revalidate: 1,
-//  }
-//}
-
 export default Home
-

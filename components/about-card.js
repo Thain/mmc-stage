@@ -14,6 +14,7 @@ const AboutCard = ({ person }) => {
             </div></div>
         </div>
         <h5><span>{person.name}</span> {person.pronouns}</h5>
+        <h6><em>{person.title}</em></h6>
     </div>
   )
 }

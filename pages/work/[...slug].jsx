@@ -1,6 +1,6 @@
 import React from "react"
-import content from '../../assets/data/casestudies.json';
-import { Layout, Nav, Footer, Spacer } from "../../components/meta"
+import content from './casestudies.json';
+import { Layout, Nav, Footer, Spacer, Seo } from "../../components/meta"
 import WorkCard from "../../components/work/workcard"
 import { Intro, Challenge, Approach, Execution, Outcome,
          LR, LRvid, LRplayer,
@@ -17,7 +17,8 @@ export default function Page( c ) {
     else return (
     <>
         <div className="case-study-content">
-            <div className="case-study-head">
+            {/*<Seo seo={homepage.attributes.seo} />*/}
+            <div className="case-study-head" style={{ backgroundImage: `url(${cs.header.mobile})`, backgroundPosition: `${cs.header.mobilePos}`}}>
                 <Nav isBlack={cs.isBlack} seo={cs.seo} active="work"/>
                 { cs.header.type == "image" &&
                     <HeaderImg src={cs.header.media} />

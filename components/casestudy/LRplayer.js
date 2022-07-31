@@ -4,12 +4,12 @@ import ReactPlayer from 'react-player'
 export const LRplayer = ( info ) => {
   return (
       <div className="case-study-LR-card">
-        <div className="LR-player-con">
+        <div>
                 <ReactPlayer
                     url={info.src}
                     controls={true}
-                    width="560"
-                    height="315"
+                    width=""
+                    height=""
                 />
         </div>
         <div>

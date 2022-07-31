@@ -8,10 +8,7 @@ export const DotStrip = ( info ) => {
                 <circle cx="120" cy="140" r="65.2428" fill="white"/>
                 <circle cx="35" cy="30" r="30" fill="white"/>
             </svg>
-
-
-
-            <h2>{info.text}</h2>
+            <h2 dangerouslySetInnerHTML={{__html: info.text}}></h2>
         </div>
     </div>
   )

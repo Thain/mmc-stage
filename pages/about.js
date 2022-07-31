@@ -6,35 +6,35 @@ import AboutCard from "../components/about-card"
 
 const About = () => {
 
-    let tristan = { name: "Tristan", pronouns: "(he/him)",
+    let tristan = { name: "Tristan", pronouns: "(he/him)", title: "Executive Director",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091920/about/Tristan_2_gvybas.png",
                     li: "https://www.linkedin.com/in/tristan-surman/",
                     desc: <>Tristan is in charge of helping the team get access to the strategies, tools and opportunities that drive the organization forward.<br/><br/> He loves making music, writing, and learning.</> };
-    let ella    = { name: "Ella", pronouns: "(she/her)",
+    let ella    = { name: "Ella", pronouns: "(she/her)", title: "Co-Creative Director",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091923/about/Ella_2_rt93uu.png",
                     li: "https://www.linkedin.com/in/ella-roy-433948156/",
                     desc: <>Ella is in charge of guiding the creative vision of our work from concept to execution.<br/><br/> She loves film photography, her collection of design magazines and being around people!</> };
-    let tony    = { name: "Tony", pronouns: "(he/him)",
+    let tony    = { name: "Tony", pronouns: "(he/him)", title: "Co-Creative Director",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091923/about/Tony_2_bxu33u.png",
                     li: "https://www.linkedin.com/in/tonywang99/",
                     desc: <>Tony leads our creative team and guides the stories that help our clients make the world a better place.<br/><br/>He loves horror films, long walks, and cool looking album covers.</> };
-    let yunjie  = { name: "Yunjie", pronouns: "(she/her)",
+    let yunjie  = { name: "Yunjie", pronouns: "(she/her)", title: "Product Designer",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646092416/about/Yunjie_2_fkedl4.png",
                     li: "https://www.linkedin.com/in/yunjiezhang/",
                     desc: <>Yunjie works with clients to create meaningful and delightful digital experiences.<br/><br/>She loves walking, thinking, learning, and pistachio ice cream.</> };
-    let kai     = { name: "Kai", pronouns: "(she/her)",
+    let kai     = { name: "Kai", pronouns: "(she/her)", title: "",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091920/about/Kai_2_rxdkd7.png",
                     li: "https://www.linkedin.com/in/kai-trotz-motayne-260123162/",
                     desc: <>Kai focuses on the implementation of digital media campaign strategy by understanding client goals and determining actions through strategic thinking and planning.<br/><br/>Kai loves travelling, reading, and creating unfinished playlists.</>,  };
-    let liam    = { name: "Liam", pronouns: "(he/him)",
+    let liam    = { name: "Liam", pronouns: "(he/him)", title: "Director of Web and Technology",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091922/about/Liam_2_iijz0q.png",
                     li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
                     desc: <>Liam is responsible for bringing websites to life, using his technical knowhow, eye for detail, and a boatload of patience.<br/><br/>He loves math, music, and tinkering with computers.</>,  };
-    let max     = { name: "Max", pronouns: "(he/him)",
+    let max     = { name: "Max", pronouns: "(he/him)", title: "Video Producer",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678527/about/Max_Brauch_ros9ah.jpg",
                     li: "https://www.linkedin.com/in/max-brauch-5b40b1210/",
                     desc: <>Max is in charge of working with the video team to bring clients' stories and ideas to life through beautiful video production.<br/><br/>He loves making art with friends, listening to music and writing.</>,  };
-    let simrit  = { name: "Simrit", pronouns: "(she/her)",
+    let simrit  = { name: "Simrit", pronouns: "(she/her)", title: "Product Desiger",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678497/about/simrit_ss5rtg.png",
                     li: "https://www.linkedin.com/in/simrit-dhillon/",
                     desc: <>Simrit is a UX/UI designer, illustrator, and huge marvel fan. <br/><br/>She loves to watch movies, read books, listen to Khalid, and push pixels to perfection.</>};
@@ -86,8 +86,8 @@ const About = () => {
 
         <div className="about-grid">
             <AboutCard person={tristan}/>
-            <AboutCard person={ella}/>
             <AboutCard person={tony}/>
+            <AboutCard person={ella}/>
             <AboutCard person={kai}/>
             <AboutCard person={yunjie}/>
             <AboutCard person={liam}/>
