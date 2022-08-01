@@ -1,5 +1,834 @@
 [
     {
+        "portfolio": {
+            "order": 1,
+            "thumb": "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1000/v1645638115/work/Infaque_v1_rdysby.png",
+            "blurb": "Bringing giving into the 21st<br/> century with <em className='dorange'>Infāque.</em>"
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 2,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 3,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 4,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 5,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 6,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 7,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 8,
+            "thumb": "",
+            "blurb": ""
+        },
+        "seo": {
+            "title": "Infāque",
+            "desc": ""
+        },
+        "isBlack": true,
+        "path": "/infaquetest",
+        "color1": "#1F5E72",
+        "color2": "#AECBD8",
+        "name": "Infāque",
+        "title": "Rethinking giving for the digital era.",
+        "foci": [
+            "Social Innovation",
+            "Tech For Good"
+        ],
+        "year": "2021",
+        "disciplines": [
+            "Brand Strategy",
+            "Brand Design",
+            "Web Design",
+            "Copywriting",
+            "Campaign Strategy",
+            "Video"
+        ],
+        "header": {
+            "type": "video",
+            "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639065/case-studies/infaque/Infaque_HeaderLoop_jszbeh.mp4",
+            "mobile": "https://res.cloudinary.com/mymediacreative/image/upload/v1646157418/case-studies/infaque/MOBILE_Infaque_Header_awpyxu.png",
+            "mobilePos": "center"
+        },
+        "mainMedia": {
+            "type": "image",
+            "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand_zempjb.png"
+        },
+        "numContent": {
+            "intro": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "challenge": "Infāque is a platform that wants to make giving more frictionless, effective, and transparent. Through our research-led work together we identified their audience, market opportunity, and brand strategy. We built this out into a beautiful visual brand and website. Ultimately, we launched the brand across social channels and directly to members of the target market.",
+            "dotstrip": "Get people donating again<br/> — by building a brand that <br/>speaks to them.",
+            "approach": "We started with a survey—asking more than 100 young people what their relationship is to charitable giving. We took this data, and more detailed research, to develop our brand strategy. This took the form of a strategic Narrative and Experience Principles—which defined the brand’s audience, market positioning, key values, and it’s &quot;pitch story&quot;. Once that was done, we worked to develop a visual brand and website that reflected our strategic objectives. Finally, with all of this research and brand strategy done—we developed a brand Go-To-Market campaign which went out through social media, direct outreach, and digital advertising.",
+            "execution": "Our principle for this brand campaign was experimentation. Experiment with different approaches to messaging, content, and audience targeting so that we could learn as much as possible about the audience + what would get them to convert. So, we tried several different content approaches: a 2-minute animated video, 1-minute &quot;Explainer&quot; videos, a couple animated GIFs, and static infographic content for social media. We took feedback from our audience as we rolled these pieces out—adjusting our focus, and creative asset, up until we surpassed our established social media followership growth goals for the initial brand campaign.",
+            "outcome": "Our brand strategy work was a game-changer for the product—identifying the audience, market opportunity, and key strategic narrative to tell in order to break into the market. This has been used to great success to acquire speaking opportunities, coverage, and interest from our user base. <br/><br/>The Infāque social media accounts were starting from scratch—so we set reasonable initial goals: 300 followers within the first couple weeks. During the initial two weeks of the brand campaign we received 60,000 impressions and surpassed our follower goal by 200 across platforms. Most importantly, we gathered important data about user preferences through very limited spending—Infāque can use it to shape their decisions when they’re ready to go to market at scale."
+        },
+        "gallery": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Web_pwim7p.png"
+            },
+            {
+                "type": "twoImg",
+                "media": [
+                    {
+                        "type": "image",
+                        "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Illustration_kcblzj.png"
+                    },
+                    {
+                        "type": "loop",
+                        "media": "https://res.cloudinary.com/mymediacreative/video/upload/v1645639066/case-studies/infaque/Fire_Gif_y0gxox.mp4"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639065/case-studies/infaque/Infaque_Social_gqgne7.png"
+            }
+        ],
+        "LR": [
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Brand2_shyqhy.png",
+                "title": "Branding",
+                "blurb": "We benchmarked tech disruptors and leading nonprofit brands to find the perfect balance between &quot;platform economy&quot; and social good."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Mac_kvmyok.png",
+                "title": "Web Design & Development",
+                "blurb": "We built an illustration-heavy website that playfully welcomes users into the &quot;world of Infāque&quot;."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681649639",
+                "title": "Explainer Video",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            },
+            {
+                "type": "vimeo",
+                "media": "https://vimeo.com/681650164",
+                "title": "Rething Giving",
+                "blurb": "We built a three-part social media series that tackled interesting issues in the social sector in a 1-minute video that was styled halfway between a Vox documentary and a TikTok explainer."
+            },
+            {
+                "type": "image",
+                "media": "https://res.cloudinary.com/mymediacreative/image/upload/v1645639064/case-studies/infaque/Infaque_Gif_mwgozo.png",
+                "title": "Brand Activation GIFs",
+                "blurb": "The concept was novel—but crucial. We built a 2-minute explainer video that focused on inspiring hope in individual action and breaking the core concept of the application down."
+            }
+        ]
+    },
+    {
+        "portfolio": {
+            "order": 9,
+            "thumb": "",
+            "blurb": ""
+        },
         "seo": {
             "title": "Infāque",
             "desc": ""
