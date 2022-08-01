@@ -17,7 +17,6 @@ export default function Page( c ) {
     else return (
     <>
         <div className="case-study-content">
-            {/*<Seo seo={homepage.attributes.seo} />*/}
             <div className="case-study-head" style={{ backgroundImage: `url(${cs.header.mobile})`, backgroundPosition: `${cs.header.mobilePos}`}}>
                 <Nav isBlack={cs.isBlack} seo={cs.seo} active="work"/>
                 { cs.header.type == "image" &&
@@ -87,7 +86,7 @@ export default function Page( c ) {
 }
 
 export async function getStaticPaths() {
-  const paths = content.map(page => {
+  const paths = Object.entries(content).map(entry => entry[1]).map(page => {
     const slug = page.path.split('/').slice(1);
     return {params: {slug}};
   });
@@ -96,7 +95,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
   const currentPath = `/${params.slug.join('/')}`;
-  const page = content.find(page => page.path === currentPath) || {notfound: true};
+  const page = Object.entries(content).map(entry => entry[1]).find(page => page.path === currentPath) || {notfound: true};
   return {props: {page}};
 }
 

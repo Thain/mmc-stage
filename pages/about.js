@@ -1,10 +1,13 @@
 import React from "react"
 //import Seo from "../components/seo"
 import { Layout, Spacer } from "../components/meta"
+import seoAll from './seo.json'
 
 import AboutCard from "../components/about-card"
 
 const About = () => {
+
+    const seo = seoAll.about;
 
     let tristan = { name: "Tristan", pronouns: "(he/him)", title: "Executive Director",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1646091920/about/Tristan_2_gvybas.png",

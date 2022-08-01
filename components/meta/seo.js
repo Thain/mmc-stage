@@ -8,7 +8,7 @@ export const Seo = ({ seo }) => {
         // Get image for sharing URL
         shareImage: "https://res.cloudinary.com/mymediacreative/image/upload/v1645815021/social-header_oizyqc.jpg",
         // meta description, if this page has one
-        metaDescription: "My Media is a creative agency for social change.",
+        metaDescription: `${seo.desc}`,
     }
 
   return (

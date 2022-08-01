@@ -1,13 +1,10 @@
 import React from "react"
 
 import { Layout, Spacer } from "../components/meta"
+import seoAll from './seo.json'
 
 const Services = () => {
-
-    const seo = {
-        title: "Services",
-        desc: "",
-    }
+    const seo = seoAll.services;
 
   return (
   <div className="bg-dblue">

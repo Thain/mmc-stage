@@ -4,6 +4,7 @@ import { useRef, useEffect, useState } from 'react'
 import { Layout, Spacer, Form } from "../components/meta"
 import { createWidget } from '@typeform/embed'
 import '@typeform/embed/build/css/widget.css'
+import seoAll from './seo.json'
 
 const Contact = () => {
 
@@ -11,11 +12,11 @@ const Contact = () => {
         createWidget('KeQjBw', { container: document.getElementById('contact-form') });
     });
 
+    const seo = seoAll.contact;
 
   return (
   <div className="bg-dblue">
-   <Layout seo={{title:"Contact", desc:""}} navBlack={false} navActive="contact">
-        {/*<Seo seo={homepage.attributes.seo} />*/}
+   <Layout seo={seo} navBlack={false} navActive="contact">
 
         <div className="contact-head midline">
             <div className="midline-title">

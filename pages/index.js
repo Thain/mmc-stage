@@ -1,6 +1,7 @@
 import React from "react"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
+import seoAll from './seo.json'
 
 import { Layout, Nav, Footer, Spacer } from "../components/meta"
 import HomeWide from "../components/home-wide"
@@ -9,12 +10,14 @@ import Result from "../assets/imgs/home-result.png"
 
 const Home = ({ homepage }) => {
 
+  const seo = seoAll.home;
+
   let infaque = {
-    name: "Infaque",
-    title: <>Stories about the <em>better <br/>futures</em> you imagine...</>,
-    desc: <>Imagining a better way to <br/> donate with</>,
-    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1645638830/home/HOME_Infaque_V6_lihiut.mp4",
-    link: "infaque",
+    name: "Centre for Social Innovation",
+    title: <>Stories about the <em>better<br/>futures</em> you imagine...</>,
+    desc: <>This is a description for CSI<br/></>,
+    vid:  "https://res.cloudinary.com/mymediacreative/video/upload/v1659119710/home/CSI_Homepage_Banner_gmn5vc.mp4",
+    link: "csi",
     mobile: "https://res.cloudinary.com/mymediacreative/image/upload/v1646157565/home/Mobile_HOME_1_jwqj1q.png",
     mobilePosition: "88%",
   };
@@ -58,7 +61,6 @@ const Home = ({ homepage }) => {
     }, options);
     observer.observe(storiesLines.current);
   }, []);
-
 
 
   function toggleLines() {
@@ -153,7 +155,16 @@ const Home = ({ homepage }) => {
             <div className="result-text">
               <Spacer h="80px" />
               <h4 className="h4p">Paired with a good strategy—<br/>they’re the stories that <em className="dorange">drive results.</em></h4>
-              <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1920/v1645763713/home/bg-mockups/Mock1_iln10n.png"/>
+              <div className="flipPhone">
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1659370871/home/bg-mockups/Mock1_iln10n_tghocn.png"/>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1645744827/home/bg-mockups/Mock6_zlf7w4.png"/>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1645744827/home/bg-mockups/Mock5_hw5j9n.png"/>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1645744826/home/bg-mockups/Mock4_yvc9ud.png"/>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1645744825/home/bg-mockups/Mock3_napohc.png"/>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_1500/v1645744826/home/bg-mockups/Mock2_kdlr8a.png"/>
+
+                <img style={{opacity:0, position: "relative"}} src="https://res.cloudinary.com/mymediacreative/image/upload/v1645744826/home/bg-mockups/Mock2_kdlr8a.png"/>
+              </div>
               <a href="/work" className="arrow-link">Case Studies</a>
               <Spacer h="80px" />
             </div>

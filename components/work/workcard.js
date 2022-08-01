@@ -3,10 +3,11 @@ import Link from "next/link"
 
 const WorkCard = ({ proj }) => {
   return (
-      <div className="work-card"style={{ backgroundImage: `url(${proj.img})`}}>
+      <div className="work-card"style={{ backgroundImage: `url(${proj.portfolio.thumb})`}}>
+        <div className="work-card-grad" />
           <h4>{proj.name}</h4>
-          <h6>{proj.tag}</h6>
-          <a href={"/work/" + proj.link} className="work-card-link" />
+          <h6>{proj.portfolio.blurb}</h6>
+          <a href={"/work" + proj.path} className="work-card-link" />
       </div>
   )
 }
